@@ -144,31 +144,7 @@ namespace Alif_HW_04._02
 
             
 
-            //insert
-
-            /*
-            Console.Write("LastName = "); string lastName = Console.ReadLine();
-            Console.Write("FirstName = "); string firstName = Console.ReadLine();
-            Console.Write("MiddleName = "); string middleName = Console.ReadLine();
-            Console.Write("BirthDate = "); string birthDate = Console.ReadLine();
-            string SqlInsert = $"Insert into Person ([LastName], [FirstName], [MiddleName], [BirthDate]) values ('{lastName}', '{firstName}', '{middleName}', '{birthDate}')";
-            using (SqlConnection connection1 = new SqlConnection(connectionString))
-            {
-                connection1.Open();
-                SqlCommand command = new SqlCommand(SqlInsert, connection1);
-                int number = command.ExecuteNonQuery();
-                Console.WriteLine($"Добывлено объектов: {number}");
-
-            }
-            // SqlCommand command = new SqlCommand(SqlInsert, connection);
-
-            //select all
-            string SelectAll = "select *from Person";
-            using (SqlConnection connection1 = new SqlConnection(connectionString))
-            {
-
-            }
-            */
+            
 
         }
     }
